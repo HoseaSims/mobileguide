@@ -5,7 +5,20 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: #642CA9;
+    font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px black;
+}
+
+h1{
     color: white;
+    font-size: 2.5rem;
+    border-bottom: solid 2px white;
 }
 
 .picker-section{
@@ -32,7 +45,7 @@ button{
     border-radius: 10px;
     font-size: 1.5rem;
     font-weight: 700;
-    color: white;
+    
     transition: .2s ease-in-out;
     cursor: pointer;
 }
