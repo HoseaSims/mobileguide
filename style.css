@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #642CA9;
+    color: white;
+}
+
+.picker-section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.section-title{
+    text-align: center;
+    border-bottom: solid 2px gold;
+    font-size: 2rem;
+}
+
+.picker-delivery-status{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding: 2rem;
+    background-color: transparent;
+    border: solid 2px gold;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 50px gold;
+}
+
+.hidden{
+    display: none;
+}
