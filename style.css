@@ -29,7 +29,7 @@ h1{
 
 .section-title{
     text-align: center;
-    border-bottom: solid 2px gold;
+    border-bottom: solid 2px #642CA9;
     font-size: 2rem;
 }
 
@@ -38,22 +38,31 @@ h1{
     justify-content: space-around;
 }
 
+#gmail-comment{
+    text-align: center;
+}
+
 button{
     padding: 2rem;
-    background-color: transparent;
-    border: solid 2px gold;
+    background-color: #642CA9;
+    border: none;
     border-radius: 10px;
     font-size: 1.5rem;
     font-weight: 700;
-    
+    color: white;
     transition: .2s ease-in-out;
     cursor: pointer;
 }
 
 button:hover{
-    box-shadow: 0 0 50px gold;
+    transform: translateY(-5px);
+    
 }
 
 .hidden{
     display: none;
+}
+
+.selected{
+    background-color: lime;
 }
